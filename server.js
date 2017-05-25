@@ -7,11 +7,11 @@ var PORT = 3000;
 app.use(express.static(process.cwd() + "/public"));
 
 app.get("/",function(req, res){
-	res.sendFile(path.join(__dirname, "home.html"))
+	res.sendFile(path.join(__dirname, "public/home.html"))
 });
 
 app.get("/about", function(req, res){
-	res.sendFile(path.join(__dirname, "about.html"))
+	res.sendFile(path.join(__dirname, "public/about.html"))
 });
 
 app.listen(PORT, function() {
