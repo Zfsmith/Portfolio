@@ -28,7 +28,7 @@ $( document ).ready(function() {
 		);
 	},
 	function(){
-		$(this).children(".gridBox").css("background-color","#646464");
+		$(this).children(".gridBox").css("background-color","#6499ab");
 		$(this).children(".gridImg").stop().animate({
 			width:"400px",
 			height:"300px",

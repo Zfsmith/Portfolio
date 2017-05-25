@@ -94,11 +94,11 @@ body{
   	margin-top: 25px;
   	margin-left: 10px;
   	margin-right: 10px;
-  	border: 5px solid #6499ab;
+  	border: 5px solid #646464;
 }
 
 .gridBox{
-	background: #646464;
+	background: #6499ab;
   	width: 400px;
   	height: 300px;
   	/*margin-top: 25px;*/
@@ -108,7 +108,7 @@ body{
   	font-size: 3em;
   	text-align: center;
   	position: absolute;
-  	opacity:.8;
+  	opacity:.9;
 }
 
 .gridImg{
