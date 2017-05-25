@@ -3,7 +3,7 @@ $( document ).ready(function() {
 // if($(window).width() << 500){
 	$(".gridBoxContainer").hover(function(){
 		// console.log($(window).width());
-		$(this).children(".gridBox").css("background-color","green");
+		$(this).children(".gridBox").css("background-color","#6499ab");
 		$(this).children(".gridImg").stop().animate({
 			width:"430px",
 			height:"330px",
@@ -28,7 +28,7 @@ $( document ).ready(function() {
 		);
 	},
 	function(){
-		$(this).children(".gridBox").css("background-color","tomato");
+		$(this).children(".gridBox").css("background-color","#646464");
 		$(this).children(".gridImg").stop().animate({
 			width:"400px",
 			height:"300px",
