@@ -144,7 +144,7 @@ body{
 }
 
 .aboutMain{
-	background-color: green;
+	/*background-color: green;*/
 	/*order: 1;*/
 	max-width:700px;
 	width:50%;
@@ -152,7 +152,7 @@ body{
 }
 
 .sideLinks{
-	background-color: blue;
+	/*background-color: blue;*/
 	/*order: 2;*/
 	max-width: 400px;
 	width: 20%;
@@ -174,7 +174,7 @@ body{
 	}
     .navigation {
     	justify-content: space-around;
-    
+
   	}
   	/*.label{
   		justify-content: space-around;
